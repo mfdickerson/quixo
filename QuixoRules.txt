@@ -1,0 +1,17 @@
+THE GOAL:
+To get 5 squares of your color in a row (either horizontally, vertically, or diagonally).
+
+HOW TO PLAY
+In turn, each player chooses a square and moves (by clicking and dragging) it according to the following rules. In no event can a player miss his/her turn.
+
+Choosing and taking a square:
+The player chooses and takes a blank square, or one with his/her color on it, from the board’s periphery. 
+In the first round, the players have no choice but to take a blank square. You are not allowed to take a square bearing your opponent’s color.
+Whether the square taken is blank or already bears the player’s color, it will always be replaced by a square with the player’s color.
+
+Replacing the square:
+Once a square is taken, the player can choose at which end of the incomplete columns or rows to place the selected square. The squares will then slide to complete the column or row. You can never replace the square just played back in the position from which it was taken.
+
+END OF GAME
+The winner is the player to make a horizontal, vertical or diagonal line with 5 squares bearing his/her color. 
+The player to make a line with his/her opponent’s color loses the game, even if he/she makes a line with his/her own color at the same time.
