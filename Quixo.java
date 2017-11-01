@@ -13,9 +13,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 import javax.swing.UIManager;
 
-public class Quixo extends Applet implements ActionListener {
-
-	
+/*public class Quixo extends Applet implements ActionListener {*/
+public class Quixo extends Panel implements ActionListener {
     /**
 	 * 
 	 */
@@ -24,7 +23,24 @@ public class Quixo extends Applet implements ActionListener {
     Button ruleButton, undoButton, clearButton;
     static Label title, turnDisplay, bottomDisplay;
     static Panel w;
-    
+	/*---------------------------------------------------------*/
+	public static void main(String[] args) {
+		Frame f = new Frame();
+  		f.addWindowListener(new java.awt.event.WindowAdapter() {
+       			public void windowClosing(java.awt.event.WindowEvent e) {
+       				System.exit(0);
+       			};
+     		});
+
+  		UnderlineText q = new Quixo();
+  		q.setSize(800,600); // same size as defined in the HTML APPLET
+  		q.add(ut);
+  		q.pack();
+  		q.init();
+  		q.setSize(800,600 + 20); // add 20, seems enough for the Frame title,
+  		q.show();
+  	}
+    /*----------------------------------------------------------*/
     // Initializes the game
     public void init () {
     	
